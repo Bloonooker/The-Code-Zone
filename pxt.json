@@ -1,0 +1,34 @@
+{
+    "name": "slingshot",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "darts": "*",
+        "Sprites Advanced": "github:The-Code-Zone/Sprites-Advanced-pxt-extension#v0.0.5",
+        "Browser Events Advanced": "github:The-Code-Zone/Browser-Events-Advanced-pxt-extension#v0.1.1",
+        "Tiles Advanced": "github:The-Code-Zone/Tiles-Advanced-pxt-extension#v0.8.1",
+        "arcade-sprite-events": "github:The-Code-Zone/Events-pxt-extension#3b10fa4b45e38db34e95f7f35a3bb5f201b233bd"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "2.0.3",
+        "pxt": "10.0.23",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
